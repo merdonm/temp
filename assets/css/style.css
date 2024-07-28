@@ -1,0 +1,144 @@
+.container-fluid {
+  padding: 0;
+}
+.header {
+  background-color: #02d262;
+  color: white;
+}
+.header > p > a {
+  color: white;
+}
+.header > a {
+  color: white;
+  background-color: #089549;
+}
+.px-6 {
+  padding: 0 60px;
+}
+.navbar-nav > li {
+  padding: 0 5px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #089549 !important;
+  border-radius: 50px;
+}
+.slick-prev,
+.slick-next {
+  z-index: 2;
+}
+.slick-prev {
+  left: 30px !important;
+}
+.slick-next {
+  right: 80px !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 60px !important;
+}
+.slick-dots li button::before {
+  background-color: transparent;
+  font-family: "slick";
+  font-size: 0px;
+  border: 1px solid white;
+  border-radius: 50px;
+  line-height: 20px;
+  position: absolute;
+  left: 0;
+  width: 10px !important;
+  height: 10px !important;
+  content: "•";
+  text-align: center;
+  color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 1 !important;
+}
+.slick-dots li button::before {
+  background-color: transparent;
+  font-family: "slick";
+  font-size: 0px !important;
+  border: 1px solid white;
+  border-radius: 50px;
+  line-height: 20px;
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  z-index: 10;
+  opacity: 1 !important;
+}
+.slick-dots li.slick-active button:before {
+  background-color: white;
+  color: white;
+  opacity: 1;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 60px !important;
+}
+.home-container {
+  position: absolute;
+  top: 32%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+.home-container > :first-child {
+  font-size: 34px;
+  font-weight: 600;
+}
+.home-content {
+  padding: 0 15%;
+  line-height: 30px;
+}
+.home-container > div > [type="button"] {
+  padding: 13px 40px;
+  border: 1px solid white;
+  border-radius: 40px;
+  margin: 0 10px;
+}
+.home-container > div > :first-child {
+  color: #02d262;
+}
+.home-container > div > :last-child {
+  color: #ffff;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.home-container > div > :first-child:hover {
+  color: #ffff;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.home-container > div > :last-child:hover {
+  color: #02d262;
+  background-color: white;
+}
+.activity >:first-child {
+  text-align: center;
+  padding: 0 23%;
+}
+.activity >:first-child hr {
+  width: 100px;
+    margin-left: 40%;  
+}
+.activity-box{
+    padding: 5%;
+    width: 100%;
+}
+.activity-box > div{
+    text-align: center;
+}
+.activity > .activity-box > div >div{
+    border: 1px solid black;
+    padding: o 20px;
+    margin: 0 20px;
+}
